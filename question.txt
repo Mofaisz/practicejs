@@ -1,0 +1,8 @@
+    Basic Parsing: Parse the JSON and log all user names.
+    Filtering: Find all active users.
+    Mapping: Create an array of all product names.
+    Nested Access: Extract and log the city for each user.
+    Aggregate Operations: Calculate the total stock of all products.
+    Complex Operations: Calculate the total amount spent by a user based on their orders.
+    Updates: Add a new product or user to the dataset.
+    Search: Find orders for a specific user by userId.
