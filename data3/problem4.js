@@ -17,5 +17,3 @@ function uniqueSkills(employee) {
 
 console.log(uniqueSkills(employees));
 
-
-

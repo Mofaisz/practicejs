@@ -12,7 +12,8 @@ function averageSalary(employees) {
     accumulator[value.department].push(intSalary);
     return accumulator;
   }, {});
-
+  
+  
   let finalResult = Object.keys(collection).reduce((accumulator, value) => {
     let total = 0;
     let count = 0;

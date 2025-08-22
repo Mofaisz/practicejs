@@ -17,7 +17,7 @@ async function third() {
   });
 }
 
-console.log("Global start");
+console.log("Global start");   
 setTimeout(() => {
   console.log("timeOut");
 }, 0);

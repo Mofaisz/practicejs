@@ -1,16 +1,15 @@
 let fs = require("fs");
 let path = require("path");
-const { setTimeout } = require("timers");
 let totalFiles = 5;
-
 let folderPath = path.join(__dirname, "./random-file");
 
 function createFiles(cb) {
   fs.mkdir(folderPath, { recursive: true }, (err) => {
     if (err) {
       cb(err);
-      console.log("Directory created successfully");
     }
+    console.log("Directory created successfully");
+
 
     for (let index = 1; index < totalFiles + 1; index++) {
       let content = String(Math.floor(Math.random() * 100));

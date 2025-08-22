@@ -9,7 +9,7 @@ function createFiles() {
       if (err) {
         reject(err);
       }
-      console.log("Directory created successfuly");
+      console.log("Directory created successfully");
       let allFiles = [];
       for (let index = 1; index < totalFile + 1; index++) {
         let content = `this is file${index}`;
